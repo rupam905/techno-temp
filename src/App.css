@@ -5,8 +5,7 @@
   text-align: center;
 }
 
-/* Custom hover effects that are easier with regular CSS */
-.logo:hover {
+Custom hover effects that are easier with regular CSS .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
