@@ -1,12 +1,10 @@
-import { useState } from "react";
 
 import "./App.css";
 import Head from "./components/Head";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-function App() {
-  const [count, setCount] = useState(0);
 
+const App = () => {
   return (
     <>
       {/* <h1 className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-md transition-colors">
@@ -19,6 +17,6 @@ function App() {
       </div>
     </>
   );
-}
+};
 
 export default App;
