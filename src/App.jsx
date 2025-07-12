@@ -1,19 +1,22 @@
-import "./App.css";
 import Head from "./components/Head";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
     <>
-      {/* <h1 className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-md transition-colors">
-        Let's strat building guys
-      </h1> */}
-      <div className="min-h-screen">
-        <Head />
-        <Home />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div className="min-h-screen">
+          <Head />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer />
+        </div>
+      </BrowserRouter>
     </>
   );
 };
