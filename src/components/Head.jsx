@@ -1,8 +1,8 @@
 const navigation = [
-  { name: "Home", href: "#" },
+  { name: "Home", href: "/" },
   { name: "Events", href: "#" },
   { name: "About", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Contact", href: "/contact" },
 ];
 const Head = () => {
   return (

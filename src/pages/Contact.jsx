@@ -14,7 +14,7 @@ const Contact = () => {
             soon!
           </p>
 
-          <form className="bg-[#18181B] p-8 rounded-2xl shadow-md ring-1 ring-indigo-700 shadow-indigo-500/20 hover:shadow-indigo-500/40 transition-shadow duration-300">
+          <form method="" className="bg-[#18181B] p-8 rounded-2xl shadow-md ring-1 ring-indigo-700 shadow-indigo-500/20 hover:shadow-indigo-500/40 transition-shadow duration-300">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm mb-2">Full Name</label>
