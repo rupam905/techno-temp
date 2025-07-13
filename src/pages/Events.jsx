@@ -8,7 +8,7 @@ import React from 'react';
     <div className="flex justify-center">
   <div className="flex justify-center">
   <button className="mt-[50px] px-[20px] py-[10px] rounded-[20px] cursor-pointer text-blue-600 border border-blue-300 transition-all duration-300 hover:bg-blue-300 hover:text-white hover:scale-105 hover:shadow-[0_0_15px_#93c5fd ">
-    Register
+    REGISTER NOW
   </button>
 </div>
 </div>
