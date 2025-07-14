@@ -1,0 +1,91 @@
+.team-section {
+  padding: 2rem;
+  background: #111;
+  color: #eee;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.team-subheading {
+  font-size: 2.5rem;
+  color: #ccc;
+  margin: 0;
+}
+
+.shine-text {
+  background: linear-gradient(
+    90deg,
+    rgb(141, 118, 224) 30%,
+    rgba(255, 255, 255, 1) 50%,
+    rgb(87, 55, 124) 70%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6.5s linear infinite;
+}
+
+@keyframes shine {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+.team-filter.left-align {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.team-filter.left-align select {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+}
+
+/* NEW: Responsive grid layout */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
+
+/* 2 columns on small screens (≥640px) */
+@media (min-width: 640px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 3 columns on medium screens (≥768px) */
+@media (min-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 4 columns on large screens (≥1024px) */
+@media (min-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
