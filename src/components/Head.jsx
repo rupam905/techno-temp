@@ -1,12 +1,12 @@
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Events", href: "#" },
+  { name: "Events", href: "/events" },
   { name: "About", href: "#" },
   { name: "Contact", href: "/contact" },
 ];
 const Head = () => {
   return (
-    <div id="#" className="">
+    <div className="">
       <nav
         aria-label="Global"
         className="flex items-center justify-between z-40 p-6 lg:px-8 fixed w-full">

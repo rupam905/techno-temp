@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 import Head from "@/components/Head"
 /*import Footer from "@/components/Footer"*/
