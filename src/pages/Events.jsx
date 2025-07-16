@@ -37,31 +37,43 @@ const Events = () => {
         <div className='flex flex-wrap gap-[25px] justify-center w-full'>
           {/* Card 1 */}
           <div className="relative group bg-white rounded-[10px] shadow-md w-[530px] h-[350px] p-[20px] overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)]">
-            <img src="https://via.placeholder.com/300x150" alt="Image 1" className="w-full h-auto rounded-[8px]" />
-            <h3 className="mt-[150px] text-[20px] font-semibold text-black z-10 relative">IOT EXPOSITION</h3>
-            <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 relative">
-              <p className="text-[14px] text-[#555555] mt-2">
-                This is a description for the first card. You can include course or product details here.
-              </p>
-              <button className="mt-[10px] px-[15px] py-[10px] bg-[#007BFF] text-white rounded-[20px] cursor-pointer transition-all duration-300 hover:bg-[white] hover:text-blue-400">
-                Learn More
-              </button>
-            </div>
-          </div>
+  <img
+    src="/images/iot.jpg"
+    alt="Image 1"
+    className="absolute top-0 left-0 w-full h-full object-cover rounded-[10px] transition-opacity duration-300 group-hover:opacity-20"
+  />
+  <h3 className="mt-[75px] text-[30px] font-semibold text-grey z-10 relative">IOT EXPOSITION</h3>
+  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 relative">
+    <button className="mt-[10px] px-[15px] py-[10px] bg-[#007BFF] text-white rounded-[20px] cursor-pointer transition-all duration-300 hover:bg-[white] hover:text-blue-400">
+      Learn More
+    </button>
+  </div>
+</div>
+
 
           {/* Card 2 */}
-          <div className="relative group bg-white rounded-[10px] shadow-md w-[530px] h-[350px] p-[20px] overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)]">
-            <img src="https://via.placeholder.com/300x150" alt="Image 1" className="w-full h-auto rounded-[8px]" />
-            <h3 className="mt-[150px] text-[20px] font-semibold text-black z-10 relative">AI UNLEASHED</h3>
-            <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 relative">
-              <p className="text-[14px] text-[#555555] mt-2">
-                This is a description for the first card. You can include course or product details here.
-              </p>
-              <button className="mt-[10px] px-[15px] py-[10px] bg-[#007BFF] text-white rounded-[20px] cursor-pointer transition-all duration-300 hover:bg-[white] hover:text-blue-400">
-                Learn More
-              </button>
-            </div>
-          </div>
+<div className="relative group bg-white rounded-[10px] shadow-md w-[530px] h-[350px] overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)]">
+  {/* Full image background */}
+  <img 
+    src="/images/AI.jpg" 
+    alt="AI UNLEASHED" 
+    className="absolute top-0 left-0 w-full h-full object-cover rounded-[10px] transition-opacity duration-300 group-hover:opacity-20" 
+  />
+
+  {/* Text on top */}
+  <div className="relative z-10 flex flex-col justify-center items-center h-full px-6 text-center">
+    <h3 className="mt-[5px] text-[30px] mr-60 font-semibold text-grey z-10 relative">AI UNLEASHED</h3>
+    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 mt-3">
+      <p className="text-[14px] text-white">
+        This is a description for the first card. You can include course or product details here.
+      </p>
+      <button className="mt-[10px] px-[15px] py-[10px] bg-[#007BFF] text-white rounded-[20px] cursor-pointer transition-all duration-300 hover:bg-white hover:text-blue-500">
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+
         </div>
       </section>
     </>
