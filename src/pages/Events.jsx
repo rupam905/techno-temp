@@ -33,7 +33,7 @@ const Events = () => {
       </div>
 
       {/* Event Cards */}
-      <section>
+      <section className="w-full pb-28">
         <div className='flex flex-wrap gap-[25px] justify-center w-full'>
           {/* Card 1 */}
           <div className="relative group bg-white rounded-[10px] shadow-md w-[530px] h-[350px] p-[20px] overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-[0_10px_20px_rgba(0,0,0,0.1)]">
